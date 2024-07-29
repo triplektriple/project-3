@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+header .header_section .header_container {
+  width: 100%;
+}
+header .header_section .header_container .top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 67.5px;
+  padding: 0px 80px;
+  border-bottom: 1px solid #000000;
+}
+header .header_section .header_container .top_nav .top_nav_text {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header_section .header_container .top_nav .top_nav_text p {
+  height: 30px;
+  font-size: 20px;
+  padding-right: 20px;
+  line-height: 150%;
+}
+header .header_section .header_container .top_nav .top_nav_text .emergency {
+  font-weight: 600;
+}
+header .header_section .header_container .top_nav .top_nav_text :nth-child(1) {
+  border-right: 1px solid #000000;
+}
+header .header_section .header_container .top_nav .top_nav_text :nth-child(2) {
+  border-right: 1px solid #000000;
+}
+header .header_section .header_container .top_nav .top_nav_text :nth-child(3) {
+  border-right: 1px solid #000000;
+}
+header .header_section .header_container .top_nav .icons i {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+header .header_section .header_container .bottom_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 90px;
+  padding: 0px 80px;
+}
+header .header_section .header_container .bottom_nav .logo {
+  width: 57%;
+}
+header .header_section .header_container .bottom_nav .logo img {
+  width: 163.25;
+  height: 50px;
+}
+header .header_section .header_container .bottom_nav .nav_menu {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .header_section .header_container .bottom_nav .nav_menu nav ul {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .header_section .header_container .bottom_nav .nav_menu nav ul li {
+  list-style: none;
+}
+header .header_section .header_container .bottom_nav .nav_menu nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+header .header_section .header_container .bottom_nav .nav_menu button {
+  padding: 10px 25px;
+  border-radius: 6.25px;
+  background-color: #000000;
+  transition: all 0.4s ease;
+}
+header .header_section .header_container .bottom_nav .nav_menu button a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  transition: all 0.4s ease;
+}
+header .header_section .header_container .bottom_nav .nav_menu button:hover {
+  background-color: #FFFFFF;
+}
+header .header_section .header_container .bottom_nav .nav_menu button:hover a {
+  color: #000000;
+}
+
+.about_section {
+  box-sizing: border-box;
+  padding: 0px 64px;
+}
+.about_section .container_fluid {
+  padding: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.about_section .container_fluid .about_head {
+  padding: 32px 0px;
+}
+.about_section .container_fluid .about_head h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.about_section .container_fluid .about_head .about_title {
+  padding: 32px 0px;
+}
+.about_section .container_fluid .about_head .about_title .about {
+  width: 616px;
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.about_section .container_fluid .about_head .about_title .about .title {
+  padding: 8px 0px;
+  height: 296px;
+  height: 116px;
+  gap: 16px;
+}
+.about_section .container_fluid .about_head .about_title .about .title h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.about_section .container_fluid .about_head .about_title .about .title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_section .container_fluid .about_head .about_button {
+  padding: 40px 0px;
+}
+.about_section .container_fluid .about_head .about_button button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+}
+.about_section .container_fluid .about_head .about_button button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.about_section .container_fluid .about_head .about_button a {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_section .container_fluid .about_head .about_button a span {
+  margin-left: 8px;
+}
+.about_section .container_fluid .about_img img {
+  width: 616px;
+  height: 542px;
+}
+
+.about_section {
+  box-sizing: border-box;
+  padding: 0px 64px;
+}
+.about_section .container_fluid {
+  padding: 112px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.about_section .container_fluid .about_head {
+  padding: 32px 0px;
+}
+.about_section .container_fluid .about_head h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.about_section .container_fluid .about_head .abt_title {
+  padding: 32px 0px;
+}
+.about_section .container_fluid .about_head .abt_title .about {
+  width: 616px;
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.about_section .container_fluid .about_head .abt_title .about .title {
+  padding: 8px 0px;
+  height: 296px;
+  height: 116px;
+  gap: 16px;
+}
+.about_section .container_fluid .about_head .abt_title .about .title h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.about_section .container_fluid .about_head .abt_title .about .title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_section .container_fluid .about_head .abt_button {
+  padding: 40px 0px;
+}
+.about_section .container_fluid .about_head .abt_button button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+}
+.about_section .container_fluid .about_head .abt_button button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.about_section .container_fluid .about_head .abt_button a {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_section .container_fluid .about_head .abt_button a span {
+  margin-left: 8px;
+}
+.about_section .container_fluid .about_img img {
+  width: 616px;
+  height: 542px;
+}
+
+.mission_section {
+  background-color: #FCF8F3;
+}
+.mission_section .container_fluid {
+  height: 864px;
+  padding: 112px, 64px, 112px, 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.mission_section .container_fluid .mission_img img {
+  width: 616px;
+  height: 640px;
+}
+.mission_section .container_fluid .mission_text {
+  width: 616px;
+  height: 290px;
+  gap: 32px;
+}
+.mission_section .container_fluid .mission_text h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.mission_section .container_fluid .mission_text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer_section {
+  padding: 0px 64px;
+}
+.footer_section .container_fluid {
+  padding: 80px 64px;
+}
+.footer_section .container_fluid .upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.footer_section .container_fluid .upper .nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+}
+.footer_section .container_fluid .upper .nav ul li {
+  list-style: none;
+}
+.footer_section .container_fluid .upper .nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.footer_section .container_fluid .upper .bottom_icon {
+  max-height: 24px;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+.footer_section .container_fluid .upper .bottom_icon i {
+  width: 24px;
+  height: 24px;
+  gap: 16px;
+}
+.footer_section .container_fluid .lower {
+  padding: 32px 374px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_section .container_fluid .lower p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}/*# sourceMappingURL=style.css.map */
